@@ -1,0 +1,26 @@
+How to run the program...
+open a cli
+pip install django
+change directory into the SEN213 project on your CLI
+change directory into ecommerce
+type "python manage.py runserver" to make sure that the environment is rightly setup
+**it should give you a link like "http://127.0.0.1:8000/", copy and then paste into your browser
+if the environment has been successfully set up,
+hit ctrl C to destroy the running server on your cli
+type "python manage.py makemigrations"
+type "python manage.py migrate"
+
+after that has been successfully done
+type "python manage.py createsuperuser" and create an admin account...
+then go to your browser and enter the address you copied earlier and type/admin beside it....
+
+it should look like this: "http://127.0.0.1:8000/admin"
+
+enter the login details you created the other time and you are now successfully set up
+
+
+to run the server...
+just paste http://127.0.0.1:8000/ into your browser and hit enter...
+
+
+
