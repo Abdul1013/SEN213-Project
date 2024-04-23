@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'Offshore/css/styles.css' %}" rel="stylesheet">
+    <title>Offshore | {%block title %} {% endblock %}</title>
+</head>
+
+<body>
+    <nav>
+      <img src="{% static 'Offshore/img/Offshore road.png' %}" alt="" style="width: 50px; height: 50px;">
+      <div class="nav-main">
+        <li>Shop</li>
+
+        <div class="dropdown" >
+          <button  class="dropbtn"> Services </button>
+          <div class="dropdown-content">
+            <a href="#">Buy</a>
+            <a href="#">Sell</a>
+            <a href="#">Pimp</a>
+          </div>
+        </div>
+
+        <li>Blog</li>
+        <li>virtual show room</li>
+      </div>
+      <div class="nav-img">
+        <li><img src="{% static 'Offshore/img/shopping-cart-empty-side-view.png' %}" width="10px" height="50px" alt=""></li>
+        <li><img src="{% static 'Offshore/img/user.png' %}" width="50px" height="50px" alt=""></li>
+      </div>
+    </nav>
+    
+    
+    {% block content %}
+    
+    {% endblock content %}
+    
+    {% comment %} footer section {% endcomment %}
+    
+  <footer>
+    <div style="display:flex; align-items:center; 
+    justify-content:center;">
+    <img style="height: 100px;" src="./img/Offshore road.png" alt="">
+    </div>
+
+    <h4>
+      Your journey begins with the click of a button. Explore our virtual showroom filled with the finest selection of vehicles,
+      each one meticulously curated to match your desires and dreams. we offer a diverse range of options to suit every lifestyle and preference. 
+      With a seamless shopping experience and expert guidance at your fingertips, finding your perfect ride has never been easier. 
+      Start your adventure today with Offshore Drive!!!
+    </h4>
+    <div >
+      <input type="email" name="" id="" placeholder="sign up for news letter">
+      <button style="margin-left: 20px;">Subscribe</button>
+    </div>
+    
+    <div class="footer-group">
+      
+      <div class="footer-list">
+        <h3>SERVICES</h3>
+        <li>Buy</li>
+        <li> Sell </li>
+        <li>Rent</li>
+        <li>Repair</li>
+        <li>Miantian</li>
+      </div>
+
+      <div class="footer-list">
+        <h3>CONTACT US</h3>
+        <ul>
+          <li>+234-678934456</li>
+          <li>shopoffshorecars@gmail.com</li>
+          <li>leadcity university toll gate, Ibaan.</li>
+        </ul>
+      </div>
+
+      <div class="footer-list">
+        <h3>ABOUT US</h3>
+        <h5 style="color: #5184c0;"> We help you find your perfect ride with 
+          ease offering value for your money.
+          Browse, Comapre, and Drive
+          your dream car home today</h5>
+      </div>
+
+      <div class="footer-list">
+        <h3>OTHERS</h3>
+        <li>Terms and condition</li>
+        <li> FAQS </li>
+        <li>Careers</li>
+        <li>Blogs</li>
+        <li>Testimonial</li>
+      </div>
+    </div>
+
+    <div class="footer-group">
+      <ul class="footer-list2">
+        <li>&copy 2024</li>
+        <li>Offshore Ride</li>
+        <li>All right reserved</li>
+        <li>@SEN213 Project</li>
+        <li>Group 5 &trade;</li>
+      </ul>
+    </div>
+    
+  </footer>   
+
+</body>
