@@ -88,12 +88,11 @@ nav div li a:hover {
     position: absolute;
     background-color: #a2d2fa;
     min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     z-index: 1;
     flex-direction: column;
   }
   
-  /* Links inside the dropdown */
+
   .dropdown-content a {
     color: #2e2e2e;
     padding: 5px;
@@ -119,73 +118,59 @@ nav div li a:hover {
     margin-top: 50px;
     display: flex;
     max-height: 100%;
-    border-bottom: 2px solid #2e2e2e;
     color: white;
-    background-color: #5184c0;
 }
 
-.side-menu{
-    width: 400px;
-    background-color: #a2d2fa;
-    height: auto;
-    list-style-type:none ;
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-}
-.side-menu li  {
-    padding: 15px;
-
-}
-.side-menu li a{
-    text-decoration: none;
-    color: #2e2e2e;
-    border-bottom: 2px solid #2e2e2e;
-    
-
-}
-.side-menu li:hover{
-    transform: translate(4px, 8px)
-}
 .socials{
     display: flex;
     justify-content: center;
-    /* margin: 10px auto; */
 }
 .socials img{
-    /* display: flex; */
-    /* flex-direction: column; */
     width: 50px;
     margin: 20px;
 }
 .hero{
-    /* position: relative; */
-    width:max-content;
-    display: flex;
-    padding: 80px;
-    background-color: #5184c0;
-    color: black;
+    text-align: center;
     align-items: center;
-    /* margin-left: 80px; */
+    justify-content: center;
+    background-image:url(./img/cars/A\ futuristic\ ca\ c80b8461-3630-47d0-9423-24da1da7351b.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px;
+    color: #f0f1f4
+}
+.hero-button{
+     margin: 120px 20px;
+     justify-content: center;
+     align-items: center;
 }
 .hero button{
-    /* margin-left: auto; */
-    background-color: #a2d2fa;
-    padding: 15px;
-    margin: 10px;
+    text-align: center;
+    background-color: #5184c0;
+    color: #2e2e2e;
+    padding: 20px;
     margin-left: 10px;
-    width: 100px;
+    width: 200px;
     border-radius: 5%;
 }
 .hero button:hover{
-    background-color: #f0f1f4;
+    background-color: #5184c0;
+}
+.hero-nav a{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-decoration: none;
+    color: #f0f1f4;
+    padding: 2px;
+}
+.hero-nav li a:hover{
+    transform: translate(4px, 2px)
 }
 
-.hero h2{
-    /* position: absolute; */
-    margin-top: 300px;
-    margin-left: -200px;
-}
 h4{
     margin-left: 10px;
     border-bottom: 2px solid #2e2e2e;
@@ -200,21 +185,15 @@ h4{
     
 }
 .brand img{
-    /* display: flex; */
     width: 200px;
     height: 200px;
-    /* background-color: #5184c0; */
-    /* border: 2px solid black; */
     padding: 10px;
     margin: 10px;
     border-radius: 50%;
 }
 .brand1 img{
-    /* display: flex; */
     width: 200px;
     height: 200px;
-    /* background-color: #5184c0; */
-    /* border: 2px solid black; */
     padding: 10px;
     margin: 10px;
     border-radius: 15%;
@@ -225,11 +204,8 @@ h4{
     text-align: center;
 }
 .brand-1 img{
-    /* display: flex; */
     width: 100px;
     height: 100px;
-    /* background-color: #5184c0; */
-    /* border: 2px solid black; */
     padding: 10px;
     margin: 10px;
 }
@@ -264,6 +240,40 @@ h4{
 }
 .action-button:hover{
     background-color: #f0f1f4;
+}
+.about{
+    display: flex;
+}
+.about-content{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.about-content img{
+    width: 400px;
+    height:300px;
+    border-radius: 10%;
+
+}
+
+.about-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.class-item1{
+    width: 400px;
+    background-color: #5184c0;
+    box-sizing: border-box;
+    flex:1;
+    box-shadow: 5px 12px 15px #a2d2fa;
+    padding: 5px;
+    border-radius: 10%;
+    height: 300px;
+
 }
 footer{
     background-color:#a2d2fa;
