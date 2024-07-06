@@ -246,6 +246,7 @@ h4{
 }
 .about{
     display: flex;
+    margin: 10px;
 }
 .about-content{
     flex:1;
