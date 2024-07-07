@@ -161,12 +161,16 @@ nav div li a:hover {
 .hero button:hover{
     background-color: #5184c0;
 }
+.hero button a{
+    text-decoration: none;
+    color: #333;
+}
 .hero-nav a{
     display: flex;
     flex-direction: column;
     flex: 1;
     text-decoration: none;
-    color: #f0f1f4;
+    color: #2e2e2e;
     padding: 2px;
 }
 .hero-nav li a:hover{
