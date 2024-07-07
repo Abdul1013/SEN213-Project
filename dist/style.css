@@ -74,41 +74,43 @@ nav div li a:hover {
     color: #fff;
     background-color: #5184c0;
     cursor: pointer;
-  }
+}
   
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
+}
   
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+
+.dropdown-content {
     display: flex;
     position: absolute;
     background-color: #a2d2fa;
     min-width: 160px;
     z-index: 1;
     flex-direction: column;
-  }
+}
   
 
-  .dropdown-content a {
+ .dropdown-content a {
     color: #2e2e2e;
     padding: 5px;
     text-decoration: none;
     display: none;
     border-bottom: 1px solid #2e2e2e;
     margin: 2px;
-  }
+}
   
  
-  .dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
   
  
-  .dropdown:hover .dropdown-content a {
+.dropdown:hover .dropdown-content a {
     display: block;
-  }
+}
 
 .nav-img img{
     width: 30px;
@@ -133,7 +135,7 @@ nav div li a:hover {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-image:url(./img/cars/A\ futuristic\ ca\ c80b8461-3630-47d0-9423-24da1da7351b.png);
+    /* background-image:url(./img/cars/A\ futuristic\ ca\ c80b8461-3630-47d0-9423-24da1da7351b.png); */
     width: 100%;
     height: 500px;
     background-size: cover;
